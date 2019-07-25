@@ -1,0 +1,22 @@
+#Red_de_Materias {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Red_de_Materias td, #Red_de_Materias th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Red_de_Materias tr:nth-child(even){background-color: #f2f2f2;}
+
+#Red_de_Materias tr:hover {background-color: #ddd;}
+
+#Red_de_Materias th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

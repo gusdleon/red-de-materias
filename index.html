@@ -3,126 +3,122 @@
     <head>
         <title>Red de Materias IMTC</title>
         <script src="script.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <h1>Red de Materias IMTC</h1>
         <p>Selecciona las Materias aprobadas para mostrar las materias disponibles a inscribir</p>
-        <table>
-            <thead></thead>
+        <table id="Red_de_Materias">
+            <thead>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr>
-                    <td>
-                        <input type="checkbox" name="Fisica I" value="Fisica I" onchange="cambio(this)">Fisica I y Lab.
-                    </td>
-                    <td>Fisica II y lab.</td>
-                    <td>Circuitos Electricos y Lab.</td>
-                    <td>Electonica I y Lab.</td>
-                    <td>Electronica II y Lab.</td>
-                    <td>Diseño de Sistemas Electricos de Potencia y Lab.</td>
-                    <td>Modelado y Simulacion de Sistemas Mecatronicos</td>
-                    <td>Diseño de Sistemas Mecatronicos y Lab.</td>
-                    <td>Proyecto de IMTC</td>
-                    <td>Certificacion</td>
+                    <td><input type="checkbox" name="Fisica I y Lab." id="Fisica_I_y_Lab" value="1" tabIndex="1" onclick="ckChange(this)">Fisica I y Lab.</td>
+                    <td><input type="checkbox" name="Fisica II y Lab." id="Fisica_II_y_lab" value="1" tabIndex="1" onclick="ckChange(this)" disabled>Fisica II y lab.</td>
+                    <td><input type="checkbox" name="Circuitos Electricos y Lab." id="Circuitos_Electricos_y_Lab" value="1" tabIndex="1" onclick="ckChange(this)" disabled>Circuitos Electricos y Lab.</td>
+                    <td><input type="checkbox" name="Electonica I y Lab." id="Electonica_I_y_Lab" value="1" tabIndex="1" onclick="ckChange(this)" disabled>Electonica I y Lab.</td>
+                    <td><input type="checkbox" name="Electronica II y Lab." id="Electrnica_II_y_Lab" value="1" tabindex="1" onclick="ckChange(this)" disabled>Electronica II y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Diseño de Sistemas Electricos de Potencia y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Modelado y Simulacion de Sistemas Mecatronicos</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Diseño de Sistemas Mecatronicos y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Proyecto de IMTC</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Certificacion</td>
                 </tr>
                 <tr>
-                    <td>Algebra para Ingenieria</td>
-                    <td>Optativa I ACFBP</td>
-                    <td>Mecanica Vectorial</td>
-                    <td>Máquinas Eléctricas y Lab.</td>
-                    <td>Electronica Digital I y Lab.</td>
-                    <td>Microcontroladores y Lab.</td>
-                    <td>Interfases Graficas</td>
-                    <td rowspan="3">Servicio Social</td>
-                    <td>Evaluacon y Administracion de Proyectos</td>
-                    <td>Investigacion</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)">Algebra para Ingenieria</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa I ACFBP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Mecanica Vectorial</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Máquinas Eléctricas y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Electronica Digital I y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Microcontroladores y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Interfases Graficas</td>
+                    <td rowspan="3"><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Servicio Social</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Evaluacon y Administracion de Proyectos</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Investigacion</td>
                 </tr>
                 <tr>
-                    <td>Matematicas I</td>
-                    <td>Matematicas II</td>
-                    <td>Matematicas III</td>
-                    <td>Matematicas IV</td>
-                    <td>Ingenieria de Control y Lab.</td>
-                    <td>Control Moderno y Lab.</td>
-                    <td>Arquitectura de Robots y Lab.</td>
-                    <!--<td>3-8</td>-->
-                    <td>Optativa IV ACFP</td>
-                    <td>Proyectos Especiales</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)">Matematicas I</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Matematicas II</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Matematicas III</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Matematicas IV</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Ingenieria de Control y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Control Moderno y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Arquitectura de Robots y Lab.</td>
+                    <!--<td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>3-8</td>-->
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa IV ACFP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Proyectos Especiales</td>
                 </tr>
                 <tr>
-                    <td>Dibujo para Ingenieria</td>
-                    <td>Fisica III y Lab.</td>
-                    <td>fisica IV y Lab.</td>
-                    <td>Mecanica de Fluidos y Lab.</td>
-                    <td>Potencia Fluida y Lab.</td>
-                    <td>Inteligencia Artificial y Redes Neuronales</td>
-                    <td>Optativa II ACFP</td>
-                    <!--<td>4-8</td>-->
-                    <td>Optativa V ACFP</td>
-                    <td>Estancia en la Industria</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)">Dibujo para Ingenieria</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Fisica III y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>fisica IV y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Mecanica de Fluidos y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Potencia Fluida y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Inteligencia Artificial y Redes Neuronales</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa II ACFP</td>
+                    <!--<td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>4-8</td>-->
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa V ACFP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Estancia en la Industria</td>
                 </tr>
                 <tr>
-                    <td>Quimica General y Lab.</td>
-                    <td>Optativa II ACFBP</td>
-                    <td>Introduccion a la Mecanica</td>
-                    <td>Sensores y Actuadores y Lab.</td>
-                    <td>Optativa V ACFBP</td>
-                    <td>Optativa I ACFP</td>
-                    <td>Optativa III ACFP</td>
-                    <td>Topicos Selectos de Ciencias Sociales Artes y Humanidades</td>
-                    <td>Optativa VI ACFP</td>
-                    <td>Movilidad Academica</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)">Quimica General y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa II ACFBP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Introduccion a la Mecanica</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Sensores y Actuadores y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa V ACFBP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa I ACFP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa III ACFP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Topicos Selectos de Ciencias Sociales Artes y Humanidades</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa VI ACFP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Movilidad Academica</td>
                 </tr>
                 <tr>
-                    <td>Aplicacion de las Tecnologias de Informacion</td>
-                    <td>Optativa III ACFBP</td>
-                    <td>Algebra Lineal</td>
-                    <td>Mecanica de Materiales y Lab.</td>
-                    <td>Diseño de Maquinas y Lab.</td>
-                    <td>Maquinas de CNC y Lab.</td>
-                    <td>Diseño de Mecanismos de Precision y Lab.</td>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <td>Optativa VII ACFP</td>
-                    <td>Unidades de Aprendizaje de Libre Elección</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)">Aplicacion de las Tecnologias de Informacion</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa III ACFBP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Algebra Lineal</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Mecanica de Materiales y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Diseño de Maquinas y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Maquinas de CNC y Lab.</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Diseño de Mecanismos de Precision y Lab.</td>
+                    <td><!--vacio--></td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa VII ACFP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Unidades de Aprendizaje de Libre Elección</td>
                 </tr>
                 <tr>
-                    <td>Competencia Comunicativa</td>
-                    <td>Apreciacion a las Artes</td>
-                    <td>Ambiente y Sustentabilidad</td>
-                    <td>Optativa IV ACFBP</td>
-                    <td>Topicos Selectos para el Desarrollo Academico y Profesional</td>
-                    <td>Contexto Social de la Profesion</td>
-                    <td>Etica. Sociedad y Profesion</td>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <td rowspan="2">Practicas Profesionales</td>
-                    <td>Programa de Ingeniero Emprendedor</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)">Competencia Comunicativa</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Apreciacion a las Artes</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Ambiente y Sustentabilidad</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Optativa IV ACFBP</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Topicos Selectos para el Desarrollo Academico y Profesional</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Contexto Social de la Profesion</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Etica. Sociedad y Profesion</td>
+                    <td><!--vacio--></td>
+                    <td rowspan="2"><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Practicas Profesionales</td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Programa de Ingeniero Emprendedor</td>
                 </tr>
                 <tr>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <td>Topicos Selectos de Desarrollo Humano Salud y Deportes</td>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <td>Topicos Selectos de Lenguas y Colturas Extranjeras</td>
-                    <td>
-                    <!--vacio-->
-                    </td>
-                    <!--<td>8-9</td>-->
-                    <td>Programa de Educacion Continua</td>
+                    <td><!--vacio--></td>
+                    <td><!--vacio--></td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Topicos Selectos de Desarrollo Humano Salud y Deportes</td>
+                    <td><!--vacio--></td>
+                    <td><!--vacio--></td>
+                    <td><!--vacio--></td>
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Topicos Selectos de Lenguas y Colturas Extranjeras</td>
+                    <td><!--vacio--></td>
+                    <!--<td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>8-9</td>-->
+                    <td><input type="checkbox" name="" id="" value="1" tabindex="1" onclick="ckChange(this)" disabled>Programa de Educacion Continua</td>
                 </tr>
             </tbody>
         </table>
