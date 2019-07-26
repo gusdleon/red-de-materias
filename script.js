@@ -1,8 +1,11 @@
 function ckChange(ckType){
     if(!Fisica_I_y_Lab.checked){
         Fisica_II_y_lab.disabled = true;
+        Fisica_II_y_lab.checked = false;
+        document.getElementById("1-1").style.color = "#ff0000";
     }else {
         Fisica_II_y_lab.disabled = false;
+        document.getElementById("1-1").style.color = "#498b2a";
     }
     if (!Fisica_II_y_lab.checked) {
         Materia3.disabled = true;
