@@ -1,4 +1,4 @@
-function ckChange(ckType){
+function cambio(param){
     if(!Fisica_I_y_Lab.checked){
         Fisica_II_y_lab.disabled = true;
         Fisica_II_y_lab.checked = false;
