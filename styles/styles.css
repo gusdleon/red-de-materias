@@ -8,6 +8,10 @@
   border: 1px solid #ddd;
   padding: 8px;
 }
+#Red_de_Materias select{
+  width: 100%;
+  
+}
 
 #Red_de_Materias icont {
   text-align: center;

@@ -1,14 +1,23 @@
 function cambio(param){
-    if (Fisica_I.checked && Fisica_I_Lab.checked && Algebra_para_Ingenieria.checked){
+    if (Fisica_I.checked && Algebra_para_Ingenieria.checked){
         Fisica_II.disabled = false;
-        Fisica_II_Lab.disabled = false;
         document.getElementById("1-1").style.color = "#498b2a";
     } else {
         Fisica_II.disabled = true;
-        Fisica_II_Lab.disabled = true;
         Fisica_II.checked = false;
-        Fisica_II_Lab.checked = false;
         document.getElementById("1-1").style.color = "#ff0000";
+    }
+    if(Matematicas_I.checked){
+        Optativa_I_ACFBP_check.disabled = false;
+        Matematicas_II.disabled = false;
+        Fisica_III_y_Lab.disabled = false;
+    }else{
+        Optativa_I_ACFBP_check.disabled = true;
+        Optativa_I_ACFBP_check.checked = false;
+        Matematicas_II.disabled = true;
+        Matematicas_II.checked = false;
+        Fisica_III_y_Lab.disabled = true;
+        Fisica_III_y_Lab.checked = false;
     }
     /*if (!Fisica_II.checked) {
         Materia3.disabled = true;
