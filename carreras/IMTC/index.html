@@ -43,22 +43,22 @@
             <tbody>
                 <tr>
                     <td id="1-1">
-                        <input type="checkbox" name="Fisica I" id="Fisica_I" value="1" tabIndex="1" onclick="cambio(this)">Fisica<br>
-                        <input type="checkbox" name="Fisica_I_Lab" id="Fisica_I_Lab" value="1" tabIndex="1" onclick="cambio(this)">y Lab.
+                        <input type="checkbox" name="Fisica I" id="Fisica_I" value="1" tabIndex="1" onclick="cambio(this)">Fisica y Lab<br>
+                        
                     </td>
                     <td id="1-2">
-                        <input type="checkbox" name="Fisica II" id="Fisica_II" value="1" tabIndex="8" onclick="cambio(this)" disabled>Fisica II<br>
-                        <input type="checkbox" name="Fisica_II_Lab" id="Fisica_II_Lab" value ="1" tabindex="1" onclick="cambio(this)" color disabled> y lab.
+                        <input type="checkbox" name="Fisica II" id="Fisica_II" value="1" tabIndex="8" onclick="cambio(this)" disabled>Fisica II y Lab<br>
+                        
                     
                     </td>
                     <td id="1-3">
-                        <input type="checkbox" name="Circuitos Electricos" id="Circuitos_Electricos" value="1" tabIndex="15" onclick="cambio(this)" disabled>Circuitos Electricos<br>
-                        <input type="checkbox" name="Circuitos_Electricos_Lab" id="Circuitos_Electricos_Lab" value="1" tabindex="1" onclick="cambio(this)" disabled> y Lab.
+                        <input type="checkbox" name="Circuitos Electricos" id="Circuitos_Electricos" value="1" tabIndex="15" onclick="cambio(this)" disabled>Circuitos Electricos y Lab<br>
+                        
                     
                     </td>
                     <td id="1-4">
-                        <input type="checkbox" name="Electonica I" id="Electonica_I" value="1" tabIndex="23" onclick="cambio(this)" disabled>Electonica I<br>
-                        <input type="checkbox" name="Electonica_I_Lab" id="Electonica_I_Lab" value="1" tabindex="1" onclick="cambio(this)" disabled>y Lab.
+                        <input type="checkbox" name="Electonica I" id="Electonica_I" value="1" tabIndex="23" onclick="cambio(this)" disabled>Electonica I y Lab<br>
+                        
                     
                     </td>
                     <td id="1-5">
@@ -93,7 +93,10 @@
                     </td>
                     <td id="2-2">
                         <input type="checkbox" name="Optativa I ACFBP" id="Optativa I ACFBP" value="1" tabindex="9" onclick="cambio(this)" disabled>Optativa I ACFBP
-                    
+                        <select name="Optativa I ACFBP" id="Optativa I ACFBP">
+                            <option value="Programación Estructurada">Programación Estructurada</option>
+                            <option value="Programación Visual">Programación Visual</option>
+                        </select>
                     </td>
                     <td id="2-3">
                         <input type="checkbox" name="Mecanica Vectorial" id="Mecanica Vectorial" value="1" tabIndex="16" onclick="cambio(this)" disabled>Mecanica Vectorial
@@ -159,7 +162,12 @@
                     </td>
                     <td id="3-9">
                         <input type="checkbox" name="Optativa IV ACFP" id="Optativa IV ACFP" value="1" tabindex="57" onclick="cambio(this)" disabled>Optativa IV ACFP
-                    
+                        <select name="Optativa IV ACFP" id="Optativa IV ACFP">
+                            <option value="Servomecanismos y Lab - MI">Servomecanismos y Lab - MI</option>
+                            <option value="Sistemas de visión y Lab - MI">Sistemas de visión y Lab - MI</option>
+                            <option value="Crecimiento biologico y Lab - BD">Crecimiento biologico y Lab - BD</option>
+                            <option value="Reconocimiento de patrones y Lab - BD">Reconocimiento de patrones y Lab - BD</option>
+                        </select>
                     </td>
                     <td id="3-10">
                         <input type="checkbox" name="Proyectos Especiales" id="Proyectos Especiales" value="1" tabindex="64" onclick="cambio(this)" disabled>Proyectos Especiales
@@ -193,11 +201,19 @@
                     </td>
                     <td id="4-7">
                         <input type="checkbox" name="Optativa II ACFP" id="Optativa II ACFP" value="1" tabindex="47" onclick="cambio(this)" disabled>Optativa II ACFP
-                    
+                        <select name="Optativa II ACFP" id="Optativa II ACFP">
+                            <option value="Diseño de sistemas embebidos">Diseño de sistemas embebidos</option>
+                            <option value="Servofluidos y Lab">Servofluidos y Lab</option>
+                        </select>
                     </td>
                     <td id="4-9">
                         <input type="checkbox" name="Optativa V ACFP" id="Optativa V ACFP" value="1" tabindex="58" onclick="cambio(this)" disabled>Optativa V ACFP
-                    
+                        <select name="Optativa V ACFP" id="Optativa V ACFP">
+                            <option value="CAD/CAM y Lab - MI">CAD/CAM y Lab - MI</option>
+                            <option value="Mecatronica computacional y Lab - MI">Mecatronica computacional y Lab - MI</option>
+                            <option value="Digitalizadores 3D y Lab - BD">Digitalizadores 3D y Lab - BD</option>
+                            <option value="Diseño geometrico biologico y Lab - BD">Diseño geometrico biologico y Lab - BD</option>
+                        </select>
                     </td>
                     <td id="4-10">
                         <input type="checkbox" name="Estancia en la Industria" id="Estancia en la Industria" value="65" tabindex="1" onclick="cambio(this)" disabled>Estancia en la Industria
@@ -211,7 +227,10 @@
                     </td>
                     <td id="5-2">
                         <input type="checkbox" name="Optativa II ACFBP" id="Optativa II ACFBP" value="1" tabindex="12" onclick="cambio(this)" disabled>Optativa II ACFBP
-                    
+                        <select name="Optativa II ACFBP" id="Optativa II ACFBP">
+                            <option value="Ciencia de los Materiales">Ciencia de los Materiales</option>
+                            <option value="Tecnologia de los Materiales">Tecnologia de los Materiales</option>
+                        </select>
                     </td>
                     <td id="5-3">
                         <input type="checkbox" name="Introduccion a la Mecanica" id="Introduccion a la Mecanica" value="1" tabIndex="19" onclick="cambio(this)" disabled>Introduccion a la Mecanica
@@ -223,23 +242,44 @@
                     </td>
                     <td id="5-5">
                         <input type="checkbox" name="Optativa V ACFBP" id="Optativa V ACFBP" value="1" tabindex="34" onclick="cambio(this)" disabled>Optativa V ACFBP
-                    
+                        <select name="Optativa V ACFBP" id="Optativa V ACFBP">
+                            <option value="Análisis del elemento finito">Análisis del elemento finito</option>
+                            <option value="Matematicas discretas">Matematicas discretas</option>
+                        </select>
                     </td>
                     <td id="5-6">
                         <input type="checkbox" name="Optativa I ACFP" id="Optativa I ACFP" value="1" tabindex="41" onclick="cambio(this)" disabled>Optativa I ACFP
-                    
+                        <select name="Optativa I ACFP" id="Optativa I ACFP">
+                            <option value="Adquisición de datos y Lab">Adquisición de datos y Lab</option>
+                            <option value="Interfases I/O y Hombre-Máquina">Interfases I/O y Hombre-Máquina</option>
+                        </select>
                     </td>
                     <td id="5-7">
                         <input type="checkbox" name="Optativa III ACFP" id="Optativa III ACFP" value="1" tabindex="48" onclick="cambio(this)" disabled>Optativa III ACFP
-                    
+                        <select name="Optativa III ACFP" id="Optativa III ACFP">
+                            <option value="Biomecanica y Lab - MI">Biomecanica y Lab - MI</option>
+                            <option value="Instrumentación Visual y Lab - MI">Instrumentación Visual y Lab - MI</option>
+                            <option value="Ingenieria medica y Lab - BD">Instrumentación Visual y Lab - MI</option>
+                            <option value="Fisiologia y Anatomia para Ingenieros y Lab - BD">Instrumentación Visual y Lab - MI</option>
+                        </select>
                     </td>
                     <td id="5-8">
                         <input type="checkbox" name="Topicos Selectos de Ciencias Sociales Artes y Humanidades" id="Topicos Selectos de Ciencias Sociales Artes y Humanidades" value="1" tabindex="54" onclick="cambio(this)" disabled>Topicos Selectos de Ciencias Sociales Artes y Humanidades
-                    
+                        <select name="Topicos Selectos de Ciencias Sociales Artes y Humanidades" id="Topicos Selectos de Ciencias Sociales Artes y Humanidades">
+                            <option value="Antropologia social">Antropologia social</option>
+                            <option value="Cultura regional">Cultura regional</option>
+                            <option value="Cultura indigenas mexicanas">Cultura indigenas mexicanas</option>
+                            <option value="Metodos alternos de solución de controversias">Metodos alternos de solución de controversias</option>
+                        </select>
                     </td>
                     <td id="5-9">
                         <input type="checkbox" name="Optativa VI ACFP" id="Optativa VI ACFP" value="1" tabindex="59" onclick="cambio(this)" disabled>Optativa VI ACFP
-                    
+                        <select name="Optativa VI ACFP" id="Optativa VI ACFP">
+                            <option value="Percepción y Lab - MI">Percepción y Lab - MI</option>
+                            <option value="Prototipos rapidos y Lab - MI">Prototipos rapidos y Lab - MI</option>
+                            <option value="Protesis y Lab - BD">Protesis y Lab - BD</option>
+                            <option value="Topicos Selectos de BD I - BD">Topicos Selectos de BD I - BD</option>
+                        </select>
                     </td>
                     <td id="5-10">
                         <input type="checkbox" name="Movilidad Academica" id="Movilidad Academica" value="1" tabindex="66" onclick="cambio(this)" disabled>Movilidad Academica
@@ -253,7 +293,10 @@
                     </td>
                     <td id="6-2">
                         <input type="checkbox" name="Optativa III ACFBP" id="Optativa III ACFBP" value="1" tabindex="13" onclick="cambio(this)" disabled>Optativa III ACFBP
-                    
+                        <select name="Optativa III ACFBP" id="Optativa II ACFBP">
+                            <option value="Probabilidad Estocástica">Probabilidad Estocástica</option>
+                            <option value="Probabilidad y Estadística">Probabilidad y Estadística</option>
+                        </select>
                     </td>
                     <td id="6-3">
                         <input type="checkbox" name="Algebra Lineal" id="Algebra Lineal" value="1" tabIndex="20" onclick="cambio(this)" disabled>Algebra Lineal
@@ -278,7 +321,12 @@
                     <td></td>
                     <td id="6-9">
                         <input type="checkbox" name="Optativa VII ACFP" id="Optativa VII ACFP" value="1" tabindex="60" onclick="cambio(this)" disabled>Optativa VII ACFP
-                    
+                        <select name="Optativa VII ACFP" id="Optativa VII ACFP">
+                            <option value="Automatización y Lab - MI">Automatización y Lab - MI</option>
+                            <option value="Sistemas de control Electronico y Lab - MI">Sistemas de control Electronico y Lab - MI</option>
+                            <option value="Dinamica de cuerpos vivos y Lab - BD">Dinamica de cuerpos vivos y Lab - BD</option>
+                            <option value="Mioelectricidad y Lab - BD">Mioelectricidad y Lab - BD</option>
+                        </select>
                     </td>
                     <td id="6-10">
                         <input type="checkbox" name="Unidades de Aprendizaje de Libre Elección" id="Unidades de Aprendizaje de Libre Elección" value="1" tabindex="67" onclick="cambio(this)" disabled>Unidades de Aprendizaje de Libre Elección
@@ -299,11 +347,20 @@
                     </td>
                     <td id="7-4">
                         <input type="checkbox" name="Optativa IV ACFBP" id="Optativa IV ACFBP" value="1" tabIndex="29" onclick="cambio(this)" disabled>Optativa IV ACFBP
-                    
+                        <select name="Optativa IV ACFBP" id="Optativa IV ACFBP">
+                            <option value="Programación con Matlab">Programación con Matlab</option>
+                            <option value="Tecnicas de Diseño Electrónico">Tecnicas de Diseño Electrónico</option>
+                        </select> 
                     </td>
                     <td id="7-5">
                         <input type="checkbox" name="Topicos Selectos para el Desarrollo Academico y Profesional" id="Topicos Selectos para el Desarrollo Academico y Profesional" value="1" tabindex="36" onclick="cambio(this)" disabled>Topicos Selectos para el Desarrollo Academico y Profesional
-                    
+                        <select name="Optativa IV ACFBP" id="Optativa IV ACFBP">
+                            <option value="Formación de emprendedores">Formación de emprendedores</option>
+                            <option value="Estrategias de aprendizaje autónomo de lenguas">Estrategias de aprendizaje autónomo de lenguas</option>
+                            <option value="Metodología científica">Metodología científica</option>
+                            <option value="Propiedad intelectual y sus aplicaciones">Propiedad intelectual y sus aplicaciones</option>
+                            <option value="Pensamiento creativo">Pensamiento creativo</option>
+                        </select> 
                     </td>
                     <td id="7-6">
                         <input type="checkbox" name="Contexto Social de la Profesion" id="Contexto Social de la Profesion" value="1" tabindex="43" onclick="cambio(this)" disabled>Contexto Social de la Profesion
@@ -326,14 +383,24 @@
                     <td></td>
                     <td id="8-3">
                         <input type="checkbox" name="Topicos Selectos de Desarrollo Humano Salud y Deportes" id="Topicos Selectos de Desarrollo Humano Salud y Deportes" value="1" tabindex="22" onclick="cambio(this)" disabled>Topicos Selectos de Desarrollo Humano Salud y Deportes
-                    
+                        <select name="Topicos Selectos de Desarrollo Humano Salud y Deportes" id="Topicos Selectos de Desarrollo Humano Salud y Deportes">
+                            <option value="Autocuidado y estilos de vida saludables">Autocuidado y estilos de vida saludables</option>
+                            <option value="Cultura de calidad">Cultura de calidad</option>
+                            <option value="Desarrollo humano y competividad profesional">Desarrollo humano y competividad profesional</option>
+                            <option value="Educación fisica">Educación fisica</option>
+                            <option value="Equidad de genero">Equidad de genero</option>
+                            <option value="Psicología y desarrollo profesional">Psicología y desarrollo profesional</option>
+                        </select> 
                     </td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td id="8-7">
-                        <input type="checkbox" name="Topicos Selectos de Lenguas y Colturas Extranjeras" id="Topicos Selectos de Lenguas y Colturas Extranjeras" value="1" tabindex="51" onclick="cambio(this)" disabled>Topicos Selectos de Lenguas y Colturas Extranjeras
-                    
+                        <input type="checkbox" name="Topicos Selectos de Lenguas y Colturas Extranjeras" id="Topicos Selectos de Lenguas y Colturas Extranjeras" value="1" tabindex="51" onclick="cambio(this)" disabled>Topicos Selectos de Lenguas y Colturas Extranjeras<br>
+                        <select name="Topicos Selectos de Lenguas y Colturas Extranjeras" id="Topicos Selectos de Lenguas y Colturas Extranjeras">
+                            <option value="Cultura inglesa">Cultura inglesa</option>
+                            <option value="Cultura alemana">Cultura alemana</option>                            
+                        </select>
                     </td>
                     <td></td>
                     <td id="8-10">
@@ -357,5 +424,9 @@
                 </tr>
             </tfoot>
         </table>
+        <footer>
+            <b>Maquinas inteligentes = MD</b><br>
+            <b>Biodispositivos = BD</b><br>
+        </footer>
     </body>
 </html>
