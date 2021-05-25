@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>Red de Materias</title>
+    </head>
+    <body class="grey lighten-3">
+        <!--NAVBAR-->
+        <nav class="z-depth-1 green lighten-0">
+            <div class="nav-wrapper container">
+                <a href="/">Red de Materias</a>
+                <a href="/carreras" style="margin:2%;">Carreras</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="logged-in">
+                        <a href="#" class="white-text modal-trigger" data-target="modal-account">Cuenta</a>
+                    </li>
+                    <li class="logged-in">
+                        <a href="#" class="white-text" id="logout">Cerrar Sesión</a>
+                    </li>
+                    <!--<li class="logged-in">
+                        <a href="#" class="white-text modal-trigger" data-target="modal-create">Create Guide</a>
+                    </li>-->
+                    <li class="logged-out">
+                        <a href="/login" class="white-text">Inicial Sesion</a>
+                    </li>
+                    <li class="logged-out">
+                        <a href="/registro" class="white-text">Registrarse</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--END NAVBAR-->
+
+
+        <!-- ACCOUNT MODAL -->
+        <div id="modal-account" class="modal">
+            <div class="modal-content center-align">
+                <h4>Detalles de la Cuenta</h4><br />
+                <div class="account-details"></div>
+            </div>
+        </div>
+        <!-- END ACCOUNT MODAL -->
+        <div style="text-align: center;">
+            <h1>Red de Materias</h1><br>
+            <h1>🐻</h1>
+        </div>
+
+
+
+
+
+
+        <!--                      Scripts                      -->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+        <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCoX0sIpTb1_URdO-GX61ttzlOuLw-Vbm8",
+            authDomain: "red-de-materias.firebaseapp.com",
+            projectId: "red-de-materias",
+            storageBucket: "red-de-materias.appspot.com",
+            messagingSenderId: "267663965185",
+            appId: "1:267663965185:web:e8bee04e64bd95f5cf9400",
+            measurementId: "G-C2DGTCE4H7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        //firestore References
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+        </script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="scripts/auth.js"></script>
+        <script src="scripts/logout.js"></script>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>
