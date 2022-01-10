@@ -1,0 +1,21 @@
+{"users": [
+{
+  "localId": "AA0d0ffSNNMOykoHCUUG3fOU8j73",
+  "email": "alfonso.gus.deleon@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "5xiVrSUJh5mbHq1pQs7a/r87GLCS314TNTJpooYTMWzIF8aRAWeN4E8VCWrsaY5ZeEOmF+xRYOOfpWm6jSv6hA==",
+  "salt": "ritTdWystAJFuA==",
+  "lastSignedInAt": "1621930654853",
+  "createdAt": "1621930654853",
+  "providerUserInfo": []
+},
+{
+  "localId": "E0KCxUmop1ejrKzpmGLztIwyzA02",
+  "email": "jbflores10@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "uE7Y/M/JlNk1I8HaaRc5ni6oeeK60O6wL+4lzdiz+dBiL2o4yVt13wEbp+ZO0dGoq8fSqsIh55ad73/PmLtHUg==",
+  "salt": "0DmTr9AcTQ9lcg==",
+  "lastSignedInAt": "1621923787276",
+  "createdAt": "1621923787276",
+  "providerUserInfo": []
+}]}
